@@ -1,16 +1,17 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import { Stick } from "next/font/google";
+import "../styles/globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+{/*フォントは必要の時にhttps://fonts.google.com/?lang=ja_Jpanから確認すること */}
+
+
+const stick_font = Stick({
   subsets: ["latin"],
-});
+  variable: "--font-stick",
+  display: "swap",
+  weight: ["400"]
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${stick_font.variable} antialiased`}
       >
         {children}
       </body>
