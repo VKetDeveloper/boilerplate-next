@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## Information
 
 > [!NOTE]
 >[Vket Boilerplate Nuxt](https://github.com/PublicHIKKY/vket-boilerplate-nuxt)をベースとしたNext.js + Zustand + Three.jsのVket Boilerplateです。
@@ -8,8 +8,19 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 > [!WARNING]
 > 現在開発中のため、バグなどあれば、[プロジェクトに貢献する](https://docs.github.com/ja/get-started/exploring-projects-on-github/contributing-to-a-project)を確認してご協力ください。
-  
 
+
+| ライブラリ名               | 説明                                |
+| -------------------- | --------------------------------- |
+| `@react-three/fiber` | React と Three.js を連携させるためのライブラリ   |
+| `@react-three/drei`  | React Three Fiber のための便利なコンポーネント集 |
+| `zustand`            | 軽量な状態管理ライブラリ                      |
+| `next`               | Next.js 本体                        |
+| `tailwindcss`        | ユーティリティファースト CSS フレームワーク          |
+| `@tailwindcss/forms` | Tailwind CSS 用のフォームデザインを提供するプラグイン |
+| `three`              | 3D コンテンツを表示するための JavaScript ライブラリ |
+
+## Getting Started
 First, run the development server:
 
 ```bash
