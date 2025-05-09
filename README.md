@@ -2,6 +2,12 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+> [!NOTE]
+>[Vket Boilerplate Nuxt](https://github.com/PublicHIKKY/vket-boilerplate-nuxt)をベースとしたNext.js + Zustand + Three.jsのVket Boilerplateです。
+> [!WARNING]
+> 現在開発中のため、バグなどあれば、[プロジェクトに貢献する](https://docs.github.com/ja/get-started/exploring-projects-on-github/contributing-to-a-project)を確認してご協力ください。
+  
+
 First, run the development server:
 
 ```bash
