@@ -9,32 +9,46 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 > [!WARNING]
 > 現在開発中のため、バグなどあれば、[プロジェクトに貢献する](https://docs.github.com/ja/get-started/exploring-projects-on-github/contributing-to-a-project)を確認してご協力ください。
 
+## インストール済みライブラリ
+### dependencies
 
-| ライブラリ名               | 説明                                |
-| -------------------- | --------------------------------- |
-| `@react-three/fiber` | React と Three.js を連携させるためのライブラリ   |
-| `@react-three/drei`  | React Three Fiber のための便利なコンポーネント集 |
-| `zustand`            | 軽量な状態管理ライブラリ                      |
-| `next`               | Next.js 本体                        |
-| `tailwindcss`        | ユーティリティファースト CSS フレームワーク          |
-| `@tailwindcss/forms` | Tailwind CSS 用のフォームデザインを提供するプラグイン |
-| `three`              | 3D コンテンツを表示するための JavaScript ライブラリ |
+| ライブラリ名               | バージョン      | 説明                                             |
+| -------------------- | ---------- | ---------------------------------------------- |
+| `@react-three/drei`  | `^10.0.7`  | React Three Fiber 用の便利なコンポーネント集。               |
+| `@react-three/fiber` | `^9.1.2`   | React と Three.js を連携させるためのライブラリ。               |
+| `@react-three/xr`    | `^6.6.16`  | XR（拡張現実）コンテンツの構築をサポートするライブラリ。                  |
+| `next`               | `15.3.2`   | Next.js 本体。サーバーサイドレンダリングをサポートする React フレームワーク。 |
+| `react`              | `^19.0.0`  | React 本体。UI コンポーネントを構築するためのライブラリ。              |
+| `react-dom`          | `^19.0.0`  | React 用の DOM 操作ライブラリ。                          |
+| `three`              | `^0.176.0` | 3D グラフィックスのための JavaScript ライブラリ。               |
+| `zustand`            | `^5.0.4`   | 軽量な状態管理ライブラリ。                                  |
+
+
+### devDependencies
+| ライブラリ名                 | バージョン     | 説明                                    |
+| ---------------------- | --------- | ------------------------------------- |
+| `@eslint/eslintrc`     | `^3`      | ESLint の設定ファイルの基盤を提供するパッケージ。          |
+| `@eslint/js`           | `^9.26.0` | ESLint の JavaScript 解析用プラグイン。         |
+| `@tailwindcss/postcss` | `^4`      | Tailwind CSS を PostCSS と統合するためのプラグイン。 |
+| `@types/node`          | `^20`     | Node.js の型定義。                         |
+| `@types/react`         | `^19`     | React の型定義。                           |
+| `@types/react-dom`     | `^19`     | React DOM の型定義。                       |
+| `eslint`               | `^9.26.0` | コードの静的解析ツールである ESLint 本体。             |
+| `eslint-config-next`   | `15.3.2`  | Next.js 用の ESLint 設定パッケージ。            |
+| `eslint-plugin-react`  | `^7.37.5` | React 専用の ESLint プラグイン。               |
+| `globals`              | `^16.1.0` | グローバル変数に関する設定を提供するパッケージ。              |
+| `husky`                | `^9.1.7`  | Git フックを設定するためのツール。                   |
+| `lint-staged`          | `^15.5.2` | Git のコミット前にファイルのリント（コード整形）を実行するツール。   |
+| `tailwindcss`          | `^4`      | ユーティリティファースト CSS フレームワーク。             |
+| `typescript`           | `^5`      | TypeScript 本体。                        |
+| `typescript-eslint`    | `^8.32.0` | TypeScript 用の ESLint プラグイン。           |
+
 
 ### Setup
 ```bash
 npm install
 ```
 
-### Options
-```bash
-npm install @react-three/fiber @react-three/drei
-npm install zustand
-npm install next
-npm install tailwindcss
-npm install @tailwindcss/forms
-npm install @react-three/drei
-npm install three
-```
 
 ## Getting Started
 First, run the development server:
