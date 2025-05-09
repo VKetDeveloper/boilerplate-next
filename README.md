@@ -20,6 +20,22 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 | `@tailwindcss/forms` | Tailwind CSS 用のフォームデザインを提供するプラグイン |
 | `three`              | 3D コンテンツを表示するための JavaScript ライブラリ |
 
+### Setup
+```bash
+npm install
+```
+
+### Options
+```bash
+npm install @react-three/fiber @react-three/drei
+npm install zustand
+npm install next
+npm install tailwindcss
+npm install @tailwindcss/forms
+npm install @react-three/drei
+npm install three
+```
+
 ## Getting Started
 First, run the development server:
 
