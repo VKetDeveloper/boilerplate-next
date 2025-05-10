@@ -14,6 +14,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 | ライブラリ名               | バージョン      | 説明                                             |
 | -------------------- | ---------- | ---------------------------------------------- |
+| `@pixiv/three-vrm`  | `3.4.0`  | React ThreeでVRMを表示、読み込みなどを行うPixiv製のライブラリ。              |
 | `@react-three/drei`  | `^10.0.7`  | React Three Fiber 用の便利なコンポーネント集。               |
 | `@react-three/fiber` | `^9.1.2`   | React と Three.js を連携させるためのライブラリ。               |
 | `@react-three/xr`    | `^6.6.16`  | XR（拡張現実）コンテンツの構築をサポートするライブラリ。                  |
