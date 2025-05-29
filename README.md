@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Information
 
 > [!NOTE]
->[Vket Boilerplate Nuxt](https://github.com/PublicHIKKY/vket-boilerplate-nuxt)をベースとしたNext.js + Zustand + Three.jsのVket Boilerplateです。
+>[Vket Boilerplate Nuxt](https://github.com/PublicHIKKY/vket-boilerplate-nuxt)をベースとしたNext.js + Zustand + Three.jsのBoilerplateです。
 
 
 > [!WARNING]
